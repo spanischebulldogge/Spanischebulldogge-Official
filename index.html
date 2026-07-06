@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SpanischeBulldogge</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+</head>
+
+<body>
+
+<!-- ===========================
+HEADER
+=========================== -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<img src="logos/logo.png" alt="">
+
+<h2>SpanischeBulldogge</h2>
+
+</div>
+
+<div class="menu-btn">
+
+☰
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">Über uns</a></li>
+
+<li><a href="#services">Leistungen</a></li>
+
+<li><a href="#shop">Shop</a></li>
+
+<li><a href="#karte">Einsatzkarte</a></li>
+
+<li><a href="#support">Unterstützen</a></li>
+
+<li><a href="#kontaktformular">Kontakt</a></li>
+
+<li><a href="team.html">Unser Team</a></li>
+
+<li><a href="impressum.html">Impressum</a></li>
+
+</ul>
+
+</nav>
+
+<!-- ===========================
+HERO
+=========================== -->
+
+<section class="hero" id="home">
+
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="videos/hero.mp4" type="video/mp4">
+        Dein Browser unterstützt keine Videos.
+    </video>
+
+</section>
+
+
+
+</header>
+<!-- ===========================
+ÜBER UNS
+=========================== -->
+
+<section class="about" id="about">
+
+    <div class="about-image">
+
+        <img src="logos/logo.png" alt="SpanischeBulldogge">
+
+    </div>
+
+    <div class="about-content">
+
+        <span class="subtitle">
+
+            ÜBER UNS
+
+        </span>
+
+        <h2>
+
+            Gemeinsam für den Schutz von Kindern.
+
+        </h2>
+
+        <p>
+
+            SpanischeBulldogge steht für Aufklärung, Transparenz und den Schutz von Kindern. Gemeinsam mit unserer Community dokumentieren wir Einsätze und machen auf Gefahren aufmerksam.
+            Wollt Ihr dazu gehören Unterstützt uns mit Spenen, Likes, Kommentaren, Followes und Kooperationen.
+        </p>
+        <div class="about-buttons">
+
+    <a href="team.html" class="btn-team">
+        👥 Unser Team kennenlernen
+    </a>
+
+    <a href="unterstuetzen.html" class="btn-support-about">
+        ❤️ Unterstützen
+    </a>
+
+</div>
+
+        <div class="stats">
+
+            <div class="stat-card">
+
+                <h3 id="caseCount">0</h3>
+
+                <span>Dokumentierte Fälle</span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3 id="cityCount">0</h3>
+
+                <span>Städte</span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3 id="stateCount">0</h3>
+
+                <span>Bundesländer</span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>2026</h3>
+
+                <span>Aktiv seit</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===========================
+UNSERE LEISTUNGEN
+=========================== -->
+
+<section class="services" id="services">
+
+    <div class="section-title">
+
+        <span>UNSERE LEISTUNGEN</span>
+
+        <h2>Was wir anbieten</h2>
+
+        <p>
+            Gemeinsam setzen wir uns für den Schutz von Kindern ein.
+            Hier findest du einen Überblick über unsere Angebote.
+            Schreibe in den Betreff um welche der 6 Leistungen es sich handelt.
+        </p>
+
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <div class="service-icon">🗣️</div>
+            <h3>Zuhören & Unterstützung</h3>
+            <p>
+                Wir nehmen uns Zeit für deine Fragen und hören uns deine Anliegen
+                in einem vertraulichen Gespräch an.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🤝</div>
+            <h3>Kooperationen</h3>
+            <p>
+                Zusammenarbeit mit Schulen, Vereinen und Organisationen
+                für mehr Aufklärung und Prävention.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🎓</div>
+            <h3>Schulvorträge</h3>
+            <p>
+                Präsentationen über Kinderschutz, digitale Gefahren
+                und Prävention für Schülerinnen und Schüler.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">👨‍👩‍👧</div>
+            <h3>Elternabende</h3>
+            <p>
+                Informationsabende für Eltern mit Tipps,
+                Aufklärung und Raum für Fragen.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🥋</div>
+            <h3>Vereine</h3>
+            <p>
+                Präventionsvorträge für Sportvereine,
+                Kampfsportschulen und Jugendgruppen.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">📩</div>
+            <h3>Anfrage stellen</h3>
+            <p>
+                Du möchtest uns für einen Vortrag oder eine Kooperation
+                anfragen? Kontaktiere uns jederzeit.
+            </p>
+        </div>
+
+    </div>
+
+    <a href="#kontaktformular" class="btn">
+        📩 Jetzt Kontakt aufnehmen
+    </a>
+
+</section>
+<!-- ===========================
+SHOP
+=========================== -->
+
+<section id="shop" class="shop">
+
+    <h2>🛍️ Unser Shop</h2>
+
+    <p class="shop-text">
+       ----Das ist unser Shop, tragt ihr diese Klamotten, benutzt ihr diese accessoires, haben eure Kinder diese Kuscheliere dann zeigt ihr, das ihr das ihr für Kinderschutz Seit----
+        Hier seht ihr beispiele aus unserem Shop 
+    </p>
+
+    <div class="shop-grid">
+
+        <div class="shop-card">
+            <img src="images/shop/hoodie.jpg" alt="Hoodie">
+            <h3>Hoodie</h3>
+            <span>65,99 €</span>
+        </div>
+
+        <div class="shop-card">
+            <img src="images/shop/shirt.jpg" alt="T-Shirt">
+            <h3>T-Shirt</h3>
+            <span>32,99 €</span>
+        </div>
+
+        <div class="shop-card">
+            <img src="images/shop/mug.jpg" alt="Tasse">
+            <h3>Tasse</h3>
+            <span>22,99 €</span>
+        </div>
+
+        <div class="shop-card">
+            <img src="images/shop/kuscheltier.jpg" alt="Kuscheltier">
+            <h3>Kuscheltier</h3>
+            <span>27,99 €</span>
+        </div>
+
+    </div>
+
+    <a href="https://chrissiunddaniel.myspreadshop.de/" target="_blank" class="shop-btn">
+        🛒 Zum Shop
+    </a>
+
+</section>
+<!-- ===========================
+EINSATZKARTE
+=========================== -->
+
+<section class="map-section" id="karte">
+
+    <div class="section-title">
+
+        <span>DEUTSCHLAND</span>
+
+        <h2>Dokumentierte Einsätze</h2>
+
+        <p>
+
+            Ihr wollt wissen ob wir schon Mutmaßliche Pädophile in eurer Stadt/Umgebung hatten, dann sucht eure Stadt in der Suchleiste.
+
+        </p>
+
+    </div>
+
+    <div class="search-box">
+
+        <input
+        type="text"
+        id="search"
+        placeholder="🔍 Stadt suchen...">
+
+    </div>
+
+    <div id="map"></div>
+
+</section>
+<section id="kontaktformular" class="contact-section">
+
+    <div class="contact-left">
+
+        <h2>Kontaktformular</h2>
+
+        <p>Hast du Fragen, anliegen, Interesse an einer Kooperation oder wir sollen Präsentationen vor Kindern, bei Elternabenden oder Vereinen, wie Kampfsportvereine für Kinder, halten. Schreib uns diretk an.</p>
+
+        <a href="spanischebulldogge@gmail.com">📧 E-Mail</a>
+
+        <a href="https://chat.whatsapp.com/Cd4dYfcKLce5lpREbFiVgA">💬 WhatsApp</a>
+
+        <a href="tel:+4915901315926">📞 Anrufen</a>
+
+    </div>
+
+    <div class="contact-right">
+
+        <form action="https://formsubmit.co/spanischebulldogge@gmail.com" method="POST">
+
+    <input type="text" name="vorname" placeholder="Vorname" required>
+
+    <input type="text" name="nachname" placeholder="Nachname">
+
+    <input type="email" name="email" placeholder="E-Mail" required>
+
+    <input type="text" name="betreff" placeholder="Betreff">
+
+    <textarea name="nachricht" placeholder="Nachricht" required></textarea>
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Neue Nachricht von der Website">
+
+    <button type="submit">Nachricht senden</button>
+
+
+    </div>
+
+</section>
+<!-- ===========================
+UNTERSTÜTZEN
+=========================== -->
+
+<section class="support" id="support">
+
+    <div class="support-box">
+
+        <span class="subtitle">
+
+            UNTERSTÜTZZEN
+
+        </span>
+
+        <h2>
+
+            Gemeinsam können wir mehr erreichen.
+
+        </h2>
+
+        <p>
+
+            Wenn du unsere Arbeit unterstützen möchtest,
+            freuen wir uns über jede Hilfe.
+            Gemeinsam können wir mehr Kinder schützen.
+            Anhand von Spenden, Likes, Kommentaren, Followes und Kooperationen Untersertützt ihr uns sehr.
+        </p>
+
+        <div class="support-buttons">
+
+           <a href="unterstuetzen.html" class="btn btn-support"> ❤️ Unterstützen
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===========================
+FOOTER
+=========================== -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <img src="logos/logo.png" alt="Logo">
+
+            <h2>SpanischeBulldogge</h2>
+
+            <p>
+
+                Gemeinsam für den Schutz von Kindern.<br>
+                Dokumentation • Aufklärung • Verantwortung.
+
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Navigation</h3>
+
+            <a href="#home">Home</a>
+            <a href="#about">Über uns</a>
+            <a href="#karte">Einsatzkarte</a>
+            <a href="#support">Unterstützen</a>
+            <a href="#kontaktformular">Kontakt</a>
+            
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Social Media</h3>
+
+            <a href="https://tiktok.com/@spanischebulldogge" target="_blank">TikTok</a>
+
+            <a href="https://instagram.com/spanischebulldogge" target="_blank">Instagram</a>
+
+            <a href="https://youtube.com/@spanischebulldogge" target="_blank">YouTube</a>
+
+            <a href="https://www.facebook.com/share/1PgjEXVsfy/?mibextid=wwXIfr" target="_blank">Facebook</a>
+
+        </div>
+        <div class="footer-box">
+            <h3>Rechtliche Hinweise</h3>
+
+            <a href="impressum.html">Impressum</a>
+
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 SpanischeBulldogge – Alle Rechte vorbehalten.
+
+    </div>
+    
+</footer>
+
+<!-- ===========================
+SCRIPTS
+=========================== -->
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
